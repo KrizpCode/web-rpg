@@ -7,7 +7,7 @@ echo '🏗️👷 Styling, testing and building your project before committing'
 npm run check-format ||
 (
   echo '🤢🤮🤢🤮 Its FOKING RAW - Your styling looks disgusting. 🤢🤮🤢🤮
-    Prettier Check Failed. Run npm run format, add changes and try commit again.';
+    Prettier Check Failed. Run yarn format, add changes and try commit again.';
   false;
 )
 
@@ -33,8 +33,7 @@ echo '🤔🤔🤔🤔... Alright.... Code looks good to me... Trying to build n
 npm run build ||
 (
   echo '❌👷🔨❌ Better call Bob... Because your build failed ❌👷🔨❌
-    Next build failed: View the errors above to see why. 
-    '
+    Next build failed: View the errors above to see why.'
   false;
 )
 
