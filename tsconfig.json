@@ -7,7 +7,6 @@
     "allowUnusedLabels": false,
     "declaration": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
     "pretty": true,
     "sourceMap": true,
     "skipLibCheck": true,
